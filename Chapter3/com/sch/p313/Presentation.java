@@ -1,4 +1,4 @@
-package sch.p313;
+package com.sch.p313;
 
 /**
  * Created by Nov on 2015/5/14.

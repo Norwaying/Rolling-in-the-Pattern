@@ -1,13 +1,13 @@
-package sch.p313;
+package com.sch.p313;
 
 /**
  * Created by Nov on 2015/5/14.
  */
-public class DAO {
+public class Business {
     public void generate(){
         ConfigModel cm = ConfigManager.getInstance().getConfigData();
-        if(cm.isNeedGenDAO()){
-            System.out.println("生成数据层");
+        if(cm.isNeedGenBussiness()){
+            System.out.println("生成业务层");
         }
     }
 }
